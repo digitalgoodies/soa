@@ -1,0 +1,356 @@
+/** Fonts **/
+@font-face {
+  font-family: 'signpaintermedium';
+  src: url('../fonts/signpainter-webfont.eot');
+  src: url('../fonts/signpainter-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/signpainter-webfont.woff2') format('woff2'),
+    url('../fonts/signpainter-webfont.woff') format('woff'),
+    url('../fonts/signpainter-webfont.ttf') format('truetype'),
+    url('../fonts/signpainter-webfont.svg#signpaintermedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+}
+
+/** Tablet Size **/
+@media only screen and (max-width: 768px) {
+	.jumbotron {
+		height: 300px !important;
+	}
+
+		#destroy {
+		width: 220px !important;
+		height: auto !important;
+	}
+
+	#showcaseH2Row {
+		margin: 5px 0px 0px 0px !important;
+	}
+
+}
+
+/** Mobile Size **/
+@media only screen and (max-width: 500px) {
+	
+
+	.jumbotron {
+		height: 250px !important;
+	}
+
+	#destroy {
+		width: 180px !important;
+		height: auto !important;
+		margin: 45px 3px !important;
+	}
+
+	#taglineRow {
+		font-size: 18px !important;
+	}
+
+	#limited {
+		display: inline-block !important;
+		line-height: 20px;
+	}
+	.showcaseH2 {
+		font-size: 20px !important;
+		padding-right: 5px !important;
+	}
+
+	#showcaseH2Row {
+		margin: 5px 0px 0px 0px !important;
+	}
+
+	.brandFont {
+		font-size: 25px !important;
+		padding-left: 3px !important;
+	}
+
+	.footer {
+		height: 150px !important;
+	}
+
+	/* Shop (mobile)*/
+	#shop-tshirt {
+	background: linear-gradient(
+		rgba(68, 68, 68, 0.45),
+		rgba(68, 0, 0, 0.55)), 
+	url(../img/product/sa_tshirt_mdl.png) no-repeat top center;
+	background-size: cover;
+	height: 300px !important;
+}
+
+	#shop-tank {
+	background: linear-gradient(
+		rgba(68, 68, 68, 0.45),
+		rgba(68, 0, 0, 0.55)), 
+	url(../img/product/sa_tanks_mdl.png) no-repeat left;
+	background-size: cover;
+	background-position: 100% 0%;
+	height: 300px !important;
+	}
+}
+
+/** Header **/
+body {
+  padding-top: 50px;
+}
+
+nav {
+	background-color: #920000 !important;
+	border-bottom: 1px solid rgba(0,0,0,0.30) !important;
+}
+
+.navbar-brand {
+	font-family: 'signpaintermedium';
+	font-size: 2.2em;
+	letter-spacing: 1px;
+	color: #fff !important;
+	padding: 5px 5px 10px 5px;
+	
+}
+
+.navbar-nav {
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	font-family: 'Montserrat';	
+}
+
+#navbar {
+	float: right;
+	font-weight: 200;
+}
+
+.active {
+	color: #444 !important;
+}
+
+.logo-white {
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+	overflow: none;
+}
+/** End Header **/
+
+/** Footer **/
+.footer {
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	float: none;
+	clear: both;
+}
+
+#footText {
+	font-family: 'montserrat';
+	color: #444;
+	letter-spacing: 1px;
+	font-size: 1em;
+	font-weight: 200;
+	margin-top: 37px;
+}
+	
+.logo-footer {
+	max-width: 120px;
+	width: 100%;
+	height: auto;
+	padding-top: 1px;
+}
+
+#ambition {
+ max-width: 80px;
+ width: 100%;
+ height: auto;
+ padding-bottom: 1px;
+}
+
+.footerBrandFont {
+	font-family: 'signpaintermedium';
+	font-size: 1.5em;
+	text-transform: none;
+	color: #920000;
+	letter-spacing: 1px;
+}
+
+/** End Footer **/
+
+/** Home **/
+
+.jumbotron {
+	background: linear-gradient(
+    rgba(68, 0, 0, 0.55), 
+    rgba(68, 0, 0, 0.55)
+  ), url(../img/homepage/opt/vietnam.png) no-repeat center;
+	background-size: cover;
+	height: 400px;
+	margin-bottom: 0px !important;
+}
+
+#destroy {
+	width: 260px;
+	height: auto;
+	margin: 65px 10px;
+}
+
+.brandFont {
+	font-family: 'signpainter';
+	font-size: 36px;
+	text-transform: none;
+	color: #920000;
+	letter-spacing: 1px;
+}
+
+.logo-red {
+	width: 190px;
+	height: auto;
+}
+
+#showcaseH2Row {
+	background-color: #fff;
+	margin: 5px 0px 15px 0px;
+}
+
+.showcaseH2 {
+	color: #444;
+	font-weight: 200;
+	font-size: 26px;
+	font-family: 'Montserrat';
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.showcaseH3 {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 1.5em;
+	font-weight: 400;
+	padding-top: 350px;
+	text-shadow: 0 0 32px #000000;
+	letter-spacing: 1px;
+	
+}
+
+#showcase1 {
+	background: linear-gradient(
+		rgba(68, 68, 68, 0.45),
+		rgba(68, 0, 0, 0.55)), 
+	url(../img/homepage/opt/entreprenuer.png) no-repeat top center;
+	background-size: cover;
+	height: 450px;
+}
+
+#showcase2 {
+	background: linear-gradient(
+  rgba(68, 68, 68, 0.45), 
+  rgba(68, 0, 0, 0.55)), 
+	url(../img/homepage/opt/traveler.png) no-repeat top center;
+	background-size: cover;
+	height: 450px;
+}
+
+#showcase3 {
+	background: linear-gradient(
+	 rgba(68, 68, 68, 0.45), 
+	 rgba(68, 0, 0, 0.55)), 
+	url(../img/homepage/opt/fitness.png) no-repeat top center;
+	background-size: cover;
+	height: 450px;
+}
+
+#taglineRow {
+	font-family: 'montserrat';
+	font-weight: 100;
+	font-size: 24px;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	letter-spacing: 1.5px;
+	padding: 45px 5px;
+}
+
+#ctaContainer {
+	background-color: #000;
+}
+
+#ctaRow {
+	padding: 0px 5px 50px 0px;
+}
+
+#cta {
+	border: 3px solid #fff;
+	background-color: #920000;
+	border-radius: 1px;
+	width: 300px;
+	height: 50px;
+	line-height: 32px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'montserrat';
+	text-transform: uppercase;
+}
+
+#home-tank {
+	overflow: none;
+	max-width: 50%;
+}
+/** End Home **/
+
+/** Shop **/
+#shopH1row {
+	padding: 40px 0px;
+	font-size: 1.7em;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	font-color: #444;
+}
+
+#shop-logo {
+	width: 200px;
+}
+
+#shop-tshirt {
+	background: linear-gradient(
+		rgba(68, 68, 68, 0.45),
+		rgba(68, 0, 0, 0.55)), 
+	url(../img/product/sa_tshirt_mdl.png) no-repeat top center;
+	background-size: cover;
+	height: 500px;
+}
+
+#shop-tank {
+	background: linear-gradient(
+		rgba(68, 68, 68, 0.45),
+		rgba(68, 0, 0, 0.55)), 
+	url(../img/product/sa_tanks_mdl.png) no-repeat left top;
+	background-size: cover;
+	background-position: 1% 100%;
+	height: 500px;
+}
+
+#shop-cta {
+	border: 3px solid #fff;
+	background: rgba(75, 0, 130, 0.35);
+	border-radius: 1px;
+	width: 300px;
+	height: 50px;
+	line-height: 32px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'montserrat';
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 40%;
+}
+/** End Shop ** /
