@@ -84,11 +84,21 @@
 	height: 300px !important;
 }
 
-	#shop-tank {
+	#shop-maletank {
 	background: linear-gradient(
 		rgba(68, 68, 68, 0.45),
 		rgba(68, 0, 0, 0.55)), 
 	url(../img/product/sa_tanks_mdl.png) no-repeat left;
+	background-size: cover;
+	background-position: 100% 0%;
+	height: 300px !important;
+	}
+
+	#shop-ladytank {
+	background: linear-gradient(
+		rgba(68, 68, 68, 0.45),
+		rgba(68, 0, 0, 0.55)), 
+	url(../img/product/sa_ladytank_mdl1.jpg) no-repeat left;
 	background-size: cover;
 	background-position: 100% 0%;
 	height: 300px !important;
@@ -328,11 +338,21 @@ nav {
 	height: 500px;
 }
 
-#shop-tank {
+#shop-maletank {
 	background: linear-gradient(
 		rgba(68, 68, 68, 0.45),
 		rgba(68, 0, 0, 0.55)), 
 	url(../img/product/sa_tanks_mdl.png) no-repeat left top;
+	background-size: cover;
+	background-position: 1% 100%;
+	height: 500px;
+}
+
+#shop-ladytank {
+	background: linear-gradient(
+		rgba(68, 68, 68, 0.45),
+		rgba(68, 0, 0, 0.55)), 
+	url(../img/product/sa_ladytank_mdl1.jpg) no-repeat left top;
 	background-size: cover;
 	background-position: 1% 100%;
 	height: 500px;
